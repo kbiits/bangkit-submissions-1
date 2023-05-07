@@ -8,4 +8,6 @@ app.use(
   })
 );
 
-app.listen(process.env.PORT || 80);
+app.listen(process.env.PORT || 80, () => {
+  console.log("express telah berjalan");
+});
